@@ -1,0 +1,575 @@
+<!doctype html>
+<html lang="km">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ផ្សារកសិកម្មសរីរាង្គខ្មែរ - ទំព័រដើម</title>
+    <link rel="shortcut icon" href="./images/logo.jpg" type="image/x-icon" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  </head>
+  <body>
+    <header>
+      <div class="container header-container">
+        <div class="logo-area">
+          <a href="index.html" class="logo">
+            <div class="logo-icon">
+              <img src="images/logo.jpg" alt="ផ្សារ Logo" />
+            </div>
+            <div class="logo-text">
+              <h1>ផ្សារកសិកម្មសរីរាង្គខ្មែរ</h1>
+              <span>Khmer Organic Agriculture Market</span>
+            </div>
+          </a>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html" class="active">ទំព័រដើម</a></li>
+            <li><a href="products.html">ផលិតផល</a></li>
+            <li><a href="farmers.html">កសិកររបស់យើង</a></li>
+            <li><a href="about.html">អំពីយើង</a></li>
+            <li><a href="news.html">ព័ត៌មាន</a></li>
+            <li><a href="contact.html">ទាក់ទងយើង</a></li>
+          </ul>
+        </nav>
+        <div class="nav-actions">
+          <button class="search-btn" aria-label="ស្វែងរក">
+            <svg
+              class="icon icon-search"
+              viewBox="0 0 24 24"
+              width="20"
+              height="20"
+              aria-hidden="true"
+              focusable="false"
+            >
+              <circle
+                cx="11"
+                cy="11"
+                r="6"
+                stroke="currentColor"
+                stroke-width="2"
+                fill="none"
+              ></circle>
+              <path
+                d="M20 20l-3.5-3.5"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                fill="none"
+              ></path>
+            </svg>
+          </button>
+          <button class="cart-btn" aria-label="កន្ត្រកទិញអីវ៉ាន់">
+            <svg
+              class="icon icon-cart"
+              viewBox="0 0 24 24"
+              width="20"
+              height="20"
+              aria-hidden="true"
+              focusable="false"
+            >
+              <path
+                d="M6 6h15l-1.5 9h-12z"
+                stroke="currentColor"
+                stroke-width="2"
+                fill="none"
+                stroke-linejoin="round"
+              ></path>
+              <circle cx="9" cy="19" r="1" fill="currentColor"></circle>
+              <circle cx="18" cy="19" r="1" fill="currentColor"></circle>
+            </svg>
+            <span class="cart-badge">0</span>
+          </button>
+          <a href="login.html" class="auth-btn">ចូល / ចុះឈ្មោះ</a>
+        </div>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <h2 class="hero-title">ផ្សារកសិកម្មសរីរាង្គខ្មែរ</h2>
+          <p class="hero-subtitle">
+            បន្លែ ផ្លែឈើ និងផលិតផលកសិកម្មសុវត្ថិភាព
+            ដែលដាំដុះដោយផ្ទាល់ពីកសិករក្នុងស្រុក
+          </p>
+          <div class="hero-buttons">
+            <a href="products.html" class="btn-primary">
+              <svg
+                class="btn-icon"
+                viewBox="0 0 24 24"
+                width="16"
+                height="16"
+                aria-hidden="true"
+              >
+                <path d="M7 4h-2l-1 2h2l1-2zm0 0" fill="none"></path>
+                <path
+                  d="M3 6h2l3.6 7.59-1.35 2.45A1 1 0 0 0 8.2 17h9.45a1 1 0 0 0 .92-.62l2.54-6.15A1 1 0 0 0 20.25 9H6.21"
+                  stroke="currentColor"
+                  stroke-width="1.4"
+                  fill="none"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+              </svg>
+              ទិញឥឡូវនេះ
+            </a>
+            <a href="about.html" class="btn-secondary">
+                <path
+                  d="M12 2C8 6 6 9 6 12s2 6 6 6"
+                  stroke="currentColor"
+                  stroke-width="1.4"
+                  fill="none"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+              </svg>
+              ស្វែងយល់បន្ថែម
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <main class="container">
+      <section class="categories-container">
+        <div class="category-card">
+          <div class="category-icon">
+            <img
+              src="/images/Vegetables.jpg"
+              alt="បន្លែសរីរាង្គ"
+              style="width: 60%; height: 60%"
+            />
+          </div>
+          <div class="category-info">
+            <h4>បន្លែសរីរាង្គ</h4>
+            <span>មើលទំនិញ ➔</span>
+          </div>
+        </div>
+        <div class="category-card">
+          <div class="category-icon">
+            <img
+              src="/images/Organic fruits.jpg"
+              alt="ផ្លែឈើសរីរាង្គ"
+              style="width: 60%; height: 60%"
+            />
+          </div>
+          <div class="category-info">
+            <h4>ផ្លែឈើសរីរាង្គ</h4>
+            <span>មើលទំនិញ ➔</span>
+          </div>
+        </div>
+        <div class="category-card">
+          <div class="category-icon">
+            <img
+              src="/images/Organic rice.JPG"
+              alt="អង្ករសរីរាង្គ"
+              style="width: 60%; height: 60%"
+            />
+          </div>
+          <div class="category-info">
+            <h4>អង្ករសរីរាង្គ</h4>
+            <span>មើលទំនិញ ➔</span>
+          </div>
+        </div>
+        <div class="category-card">
+          <div class="category-icon">
+            <img
+              src="/images/Livestock.jpg"
+              alt="សត្វចិញ្ចឹមកសិកម្ម"
+              style="width: 60%; height: 60%"
+            />
+          </div>
+          <div class="category-info">
+            <h4>សត្វចិញ្ចឹមកសិកម្ម</h4>
+            <span>មើលទំនិញ ➔</span>
+          </div>
+        </div>
+      </section>
+
+      <div class="main-layout">
+        <section>
+          <div class="section-header">
+            <h3>ផលិតផលពេញនិយម</h3>
+            <a href="products.html" class="view-all">មើលផលិតផលទាំងអស់ ➔</a>
+          </div>
+
+          <div class="products-grid">
+            <article class="product-card">
+              <div class="product-img-wrapper">
+                <img src="/images/organic salad.jpg" alt="សាឡាត់សរីរាង្គ" />
+              </div>
+              <div class="product-details">
+                <h4>សាឡាត់សរីរាង្គ</h4>
+                <div class="product-price">$2.50 / kg</div>
+                <div class="rating">★★★★★ <span>(12)</span></div>
+                <button class="add-cart-btn">🛒 បញ្ចូលក្នុងកន្ត្រក</button>
+              </div>
+            </article>
+
+            <article class="product-card">
+              <div class="product-img-wrapper">
+                <img src="/images/Organic Tomatoes.jpg" alt="ត្រ" />
+              </div>
+              <div class="product-details">
+                <h4>ប៉េងប៉ោះសរីរាង្គ</h4>
+                <div class="product-price">$3.00 / kg</div>
+                <div class="rating">
+                  <div class="stars-wrapper">
+                    <svg viewBox="0 0 24 24" class="star-icon">
+                      <path
+                        d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                      />
+                    </svg>
+                    <svg viewBox="0 0 24 24" class="star-icon">
+                      <path
+                        d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                      />
+                    </svg>
+                    <svg viewBox="0 0 24 24" class="star-icon">
+                      <path
+                        d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                      />
+                    </svg>
+                    <svg viewBox="0 0 24 24" class="star-icon">
+                      <path
+                        d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                      />
+                    </svg>
+                    <svg viewBox="0 0 24 24" class="star-icon">
+                      <path
+                        d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                      />
+                    </svg>
+                  </div>
+                  <span>(18)</span>
+                </div>
+                <button class="add-cart-btn">
+                  <svg viewBox="0 0 24 24" class="cart-icon">
+                    <path
+                      d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zM1 2v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.14 0-.25-.11-.25-.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.08-.14.12-.31.12-.48 0-.55-.45-1-1-1H5.21l-.94-2H1zm16 16c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z"
+                    />
+                  </svg>
+                  <span>បញ្ចូលក្នុងកន្ត្រក</span>
+                </button>
+              </div>
+            </article>
+
+            <article class="product-card">
+              <div class="product-img-wrapper">
+                <img src="/images/Cucumber.jpg" alt="ត្រសក់" />
+              </div>
+              <div class="product-details">
+                <h4>ត្រសក់</h4>
+                <div class="product-price">$1.25 / kg</div>
+                <div class="rating">
+                  <div class="stars-wrapper">
+                    <svg viewBox="0 0 24 24" class="star-icon">
+                      <path
+                        d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                      />
+                    </svg>
+                    <svg viewBox="0 0 24 24" class="star-icon">
+                      <path
+                        d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                      />
+                    </svg>
+                    <svg viewBox="0 0 24 24" class="star-icon">
+                      <path
+                        d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                      />
+                    </svg>
+                    <svg viewBox="0 0 24 24" class="star-icon">
+                      <path
+                        d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                      />
+                    </svg>
+                    <svg viewBox="0 0 24 24" class="star-icon">
+                      <path
+                        d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                      />
+                    </svg>
+                  </div>
+                  <span>(18)</span>
+                </div>
+                <button class="add-cart-btn">
+                  <svg viewBox="0 0 24 24" class="cart-icon">
+                    <path
+                      d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zM1 2v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.14 0-.25-.11-.25-.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.08-.14.12-.31.12-.48 0-.55-.45-1-1-1H5.21l-.94-2H1zm16 16c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z"
+                    />
+                  </svg>
+                  <span>បញ្ចូលក្នុងកន្ត្រក</span>
+                </button>
+              </div>
+            </article>
+
+            <article class="product-card">
+              <div class="product-img-wrapper">
+                <img src="/images/Rice flower.png" alt="អង្ករផ្ការំដួល" />
+              </div>
+              <div class="product-details">
+                <h4>អង្ករផ្ការំដួល</h4>
+                <div class="product-price">$2.00 / kg</div>
+                <div class="rating">
+                  <div class="stars-wrapper">
+                    <svg viewBox="0 0 24 24" class="star-icon">
+                      <path
+                        d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                      />
+                    </svg>
+                    <svg viewBox="0 0 24 24" class="star-icon">
+                      <path
+                        d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                      />
+                    </svg>
+                    <svg viewBox="0 0 24 24" class="star-icon">
+                      <path
+                        d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                      />
+                    </svg>
+                    <svg viewBox="0 0 24 24" class="star-icon">
+                      <path
+                        d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                      />
+                    </svg>
+                    <svg viewBox="0 0 24 24" class="star-icon">
+                      <path
+                        d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                      />
+                    </svg>
+                  </div>
+                  <span>(18)</span>
+                </div>
+                <button class="add-cart-btn">
+                  <svg viewBox="0 0 24 24" class="cart-icon">
+                    <path
+                      d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zM1 2v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.14 0-.25-.11-.25-.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.08-.14.12-.31.12-.48 0-.55-.45-1-1-1H5.21l-.94-2H1zm16 16c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z"
+                    />
+                  </svg>
+                  <span>បញ្ចូលក្នុងកន្ត្រក</span>
+                </button>
+              </div>
+            </article>
+            <article class="product-card">
+              <div class="product-img-wrapper">
+                <img src="/images/Chicken.jpg" alt="សាច់មាន់់សរីរាង្គ" />
+              </div>
+              <div class="product-details">
+                <h4>សាច់មាន់់សរីរាង្គ</h4>
+                <div class="product-price">$5.00 / kg</div>
+                <div class="rating">
+                  <div class="stars-wrapper">
+                    <svg viewBox="0 0 24 24" class="star-icon">
+                      <path
+                        d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                      />
+                    </svg>
+                    <svg viewBox="0 0 24 24" class="star-icon">
+                      <path
+                        d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                      />
+                    </svg>
+                    <svg viewBox="0 0 24 24" class="star-icon">
+                      <path
+                        d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                      />
+                    </svg>
+                    <svg viewBox="0 0 24 24" class="star-icon">
+                      <path
+                        d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                      />
+                    </svg>
+                    <svg viewBox="0 0 24 24" class="star-icon">
+                      <path
+                        d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                      />
+                    </svg>
+                  </div>
+                  <span>(18)</span>
+                </div>
+                <button class="add-cart-btn">
+                  <svg viewBox="0 0 24 24" class="cart-icon">
+                    <path
+                      d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zM1 2v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.14 0-.25-.11-.25-.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.08-.14.12-.31.12-.48 0-.55-.45-1-1-1H5.21l-.94-2H1zm16 16c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z"
+                    />
+                  </svg>
+                  <span>បញ្ចូលក្នុងកន្ត្រក</span>
+                </button>
+              </div>
+            </article>
+            <article class="product-card">
+              <div class="product-img-wrapper">
+                <img src="/images/Peppers.jpg" alt="ម្ទេស" />
+              </div>
+              <div class="product-details">
+                <h4>ម្ទេស</h4>
+                <div class="product-price">$3.00 / kg</div>
+                <div class="rating">
+                  <div class="stars-wrapper">
+                    <svg viewBox="0 0 24 24" class="star-icon">
+                      <path
+                        d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                      />
+                    </svg>
+                    <svg viewBox="0 0 24 24" class="star-icon">
+                      <path
+                        d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                      />
+                    </svg>
+                    <svg viewBox="0 0 24 24" class="star-icon">
+                      <path
+                        d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                      />
+                    </svg>
+                    <svg viewBox="0 0 24 24" class="star-icon">
+                      <path
+                        d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                      />
+                    </svg>
+                    <svg viewBox="0 0 24 24" class="star-icon">
+                      <path
+                        d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                      />
+                    </svg>
+                  </div>
+                  <span>(18)</span>
+                </div>
+                <button class="add-cart-btn">
+                  <svg viewBox="0 0 24 24" class="cart-icon">
+                    <path
+                      d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zM1 2v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.14 0-.25-.11-.25-.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.08-.14.12-.31.12-.48 0-.55-.45-1-1-1H5.21l-.94-2H1zm16 16c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z"
+                    />
+                  </svg>
+                  <span>បញ្ចូលក្នុងកន្ត្រក</span>
+                </button>
+              </div>
+            </article>
+          </div>
+        </section>
+        <aside class="sidebar">
+                <article class="sidebar-card">
+                    <h3 class="sidebar-title">កសិកររបស់យើង</h3>
+                    <div class="farmer-profile">
+                        <div class="farmer-avatar-container">
+                            <div class="farmer-avatar-bg">
+                                <img src="./images/farmer1.jpg" alt="កសិករ សុខា" class="farmer-avatar" />
+                            </div>
+                        </div>
+                        <h4>កសិករ សុខា</h4>
+                        <div class="farmer-meta">
+                            📍 ខេត្តកំពង់ចាម | ⏳ បទពិសោធន៍ ១០ ឆ្នាំ
+                        </div>
+                        <p class="farmer-bio">
+                            "យើងខ្ញុំផលិតកសិកម្មសរីរាង្គ ដើម្បីសុខភាពគ្រួសារ និងសហគមន៍យើងទាំងមូល។"
+                        </p>
+                        <a href="farmers.html" class="btn-sidebar">ស្វែងយល់បន្ថែមពីកសិករ ➔</a>
+                    </div>
+                </article>
+
+                <article class="sidebar-card">
+                    <h3 class="sidebar-title">💬 អតិថិជននិយាយថា</h3>
+                    <div class="testimonial-block">
+                        <div class="quote-icon">“</div>
+                        <p class="testimonial-text">
+                            បន្លែស្រស់ ស្អាត និងមានគុណភាពល្អណាស់! សូមជូនពរអោយរកស៊ីមានបានជោគជ័យ។
+                        </p>
+                        <div class="user-info">
+                            <div class="user-avatar-bg">👩</div>
+                            <div class="user-details">
+                                <h5>អ្នកស្រី ធានី</h5>
+                                <span>📍 ភ្នំពេញ</span>
+                            </div>
+                        </div>
+                    </div>
+            </article>
+        </aside>
+    </aside>
+      </div>
+      <section class="benefits-section">
+        <div class="benefits-grid">
+          <div class="benefit-item">
+            <div class="benefit-icon">🍃</div>
+            <h5>100% សរីរាង្គ</h5>
+            <p>មិនប្រើសារធាតុគីមី</p>
+          </div>
+          <div class="benefit-item">
+            <div class="benefit-icon">🧑‍🌾</div>
+            <h5>កសិករផ្ទាល់</h5>
+            <p>គាំទ្រកសិករក្នុងស្រុក</p>
+          </div>
+          <div class="benefit-item">
+            <div class="benefit-icon">🧺</div>
+            <h5>ស្រស់ថ្មីរាល់ថ្ងៃ</h5>
+            <p>ដឹកជញ្ជូនលឿន</p>
+          </div>
+          <div class="benefit-item">
+            <div class="benefit-icon">🌍</div>
+            <h5>មិត្តភាពបរិស្ថាន</h5>
+            <p>សម្រាប់អនាគតបៃតង</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <div class="logo-text">
+            <h1>ផ្សារកសិកម្មសរីរាង្គខ្មែរ</h1>
+          </div>
+          <p>
+            យើងខ្ញុំផ្គត់ផ្គង់ផលិតផលសរីរាង្គគុណភាពខ្ពស់បំផុត
+            សម្រាប់គ្រួសារកម្ពុជា និងសុខភាពល្អ។
+          </p>
+        <div class="social-icons">
+            <a href="#" class="social-icon facebook" aria-label="Facebook">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#" class="social-icon instagram" aria-label="Instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="#" class="social-icon youtube" aria-label="YouTube">
+                <i class="fab fa-youtube"></i>
+            </a>
+            <a href="#" class="social-icon telegram" aria-label="Telegram">
+                <i class="fab fa-telegram-plane"></i>
+            </a>
+        </div>
+        </div>
+        <div class="footer-links">
+          <h4>តំណភ្ជាប់រហ័ស</h4>
+          <ul>
+            <li><a href="index.html">ទំព័រដើម</a></li>
+            <li><a href="products.html">ផលិតផល</a></li>
+            <li><a href="farmers.html">កសិករ</a></li>
+            <li><a href="about.html">អំពីយើង</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact">
+          <h4>ទាក់ទងយើង</h4>
+          <p>📞 +855 12 345 678</p>
+          <p>📧 info@organicmarket.kh</p>
+          <p>📍 #123, St. 456, Phnom Penh, Cambodia</p>
+        </div>
+        <div class="footer-newsletter">
+          <h4>ចុះឈ្មោះទទួលព័ត៌មាន</h4>
+          <p>ទទួលព័ត៌មានថ្មីៗ និងការផ្តល់ជូនពិសេស</p>
+          <form class="newsletter-form" action="#" method="POST">
+            <input
+              type="email"
+              placeholder="អ៊ីមែលរបស់អ្នក"
+              required
+              aria-label="អ៊ីមែលរបស់អ្នក"
+            />
+            <button type="submit">»</button>
+          </form>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <p>&copy; 2026 ផ្សារកសិកម្មសរីរាង្គខ្មែរ។ រក្សាសិទ្ធិគ្រប់យ៉ាង។</p>
+        <p>បង្កើតដោយ ❤️ ក្នុងសហគមន៍ខ្មែរ</p>
+      </div>
+    </footer>
+  </body>
+</html>
